@@ -1,0 +1,25 @@
+//Pointer to Pointer in C++ simple program
+
+#include<iostream>
+using namespace std;
+
+int main() {
+	cout << "   Pointer to Pointer in C++" << endl;
+	cout << "\t********* " << endl;
+	int data = 10;
+	int data_2 = 200;
+	int *ptr;
+	ptr = &data;
+	cout << "Value in *ptr is " << *ptr << endl;
+	cout << "############################################" << endl;
+	int **double_ptr;
+	double_ptr = &ptr;
+	cout << "Value in **double_ptr is " << **double_ptr << endl;
+	cout << "############################################" << endl;
+	*double_ptr = &data_2;
+	**double_ptr;
+	cout << "Value in **double_ptr is " << **double_ptr << endl;
+	cout << "############################################" << endl;
+	system("pause");
+	return 0;
+}

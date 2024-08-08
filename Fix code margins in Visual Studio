@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << " Fix code margins" << endl;
+	cout << "Select what needs formatting and CTRL+K followed by CTRL+F" << endl;
+	cout << "F5 to debug" << endl;
+	system("pause");
+	return 0;
+}
